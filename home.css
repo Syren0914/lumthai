@@ -90,7 +90,7 @@
 	background-color: var(--lightGreen-1);
 	padding: 1.2rem;
 	padding-top: 5rem;
-	border-radius: 12px;
+	border-radius: 50px 50px 10px 50px;
 	width: 45%;
 	margin: 0 auto;
 }
@@ -299,6 +299,7 @@
 }
 .eventsMedia__1 {
 	position: relative;
+	
 }
 .eventsMedia__1__playButton {
 	display: inline-block;
