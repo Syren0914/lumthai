@@ -22,13 +22,13 @@ section {
 	margin: 0 auto;
 }
 :root {
-	--green-1: #2D1312;
+	--green-1: #8c191c;
 	--green-2: #ffffff;
-	--lightGreen-1: #ffffff;
-	--lightGreen-2: #EFE9DD;
-	--black-1: #3b413a;
-	--black-2: #3f3c3c;
-	--black-3: #5b6359;
+	--lightGreen-1: #8c191c;
+	--lightGreen-2: #202329;
+	--black-1: #ffffff;
+	--black-2: #ffffff;
+	--black-3: #ffffff;
 	--white-1: #EFE9DD;
 }
 img {

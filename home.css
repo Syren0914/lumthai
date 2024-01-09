@@ -15,7 +15,7 @@
 .hero__imgWrapper {
 	max-width: 400px;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 ;
 }
 .hero__heading {
 	font-family: Poppins;
@@ -68,7 +68,9 @@
 	}
 	.hero__imgWrapper {
 		max-width: none;
-		width: 90%;
+		width: 100%;
+		
+		
 	}
 }
 @media only screen and (max-width: 900px) {
