@@ -40,6 +40,7 @@
 	height: 100%;
 }
 
+
 @media only screen and (min-width: 768px) {
 	.hero__wrapper {
 		flex-direction: row;
@@ -59,6 +60,7 @@
 
 	.hero__info {
 		margin-bottom: 2rem;
+		margin-top: 40px;
 		text-align: left;
 		font-size: 1.8rem;
 	}

@@ -93,16 +93,18 @@
 	color: var(--green-1);
 	font-family: Poppins;
 	font-weight: 500;
-	border-radius: 0px;
+	border: 2px solid transparent; /* Set border to 2px and make it transparent */
+	border-radius: 50px;
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
-}
-.primary-btn {
-	color: var(--white-1);
-	background: var(--green-1);
-	border-radius: 50px;
-	
-}
+  }
+  
+  .primary-btn {
+	color: var(--green-1); /* Text color */
+	background: transparent; /* Set background to transparent */
+	border: 2px solid var(--green-1); /* Border color */
+  }
+  
 @media only screen and (min-width: 700px) {
 	.btn {
 		padding: 1.3rem 2rem;
@@ -123,7 +125,7 @@
 	padding: 20px 30px;
 	text-align: center;
 	text-align: center;
-	border-radius: 50%;
+	border-radius: 20px;
 	
 	width: 150px;
 }
