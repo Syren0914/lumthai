@@ -93,14 +93,15 @@
 	color: var(--green-1);
 	font-family: Poppins;
 	font-weight: 500;
-	border-radius: 8px;
+	border-radius: 0px;
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
 }
 .primary-btn {
 	color: var(--white-1);
 	background: var(--green-1);
-	border-radius: 20px;
+	border-radius: 50px;
+	
 }
 @media only screen and (min-width: 700px) {
 	.btn {
@@ -122,7 +123,8 @@
 	padding: 20px 30px;
 	text-align: center;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: 50%;
+	
 	width: 150px;
 }
 .storeInfo__icon {
@@ -174,6 +176,7 @@
 	display: grid;
 	/* grid-template-columns: repeat(autofit, minmax(140px, 1fr)); */
 	grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+	
 	gap: 1rem;
 }
 .dishGrid__item {
@@ -192,7 +195,7 @@
 }
 .dishGrid__item__img img {
 	object-fit: cover;
-	border-radius: 12px;
+	border-radius: 20px;
 }
 .dishGrid__item__title {
 	font-size: 1.4rem;
@@ -222,7 +225,7 @@
 	.dishGrid__item {
 		flex-direction: row;
 		padding: 1.5rem;
-		border-radius: 12px;
+		border-radius: 28px;
 		gap: 1rem;
 	}
 	.dishGrid__item__title {

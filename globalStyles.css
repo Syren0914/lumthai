@@ -22,14 +22,14 @@ section {
 	margin: 0 auto;
 }
 :root {
-	--green-1: black;
-	--green-2: #FFD700;
-	--lightGreen-1: #FFDE2E;
-	--lightGreen-2: #fff;
+	--green-1: #2D1312;
+	--green-2: #ffffff;
+	--lightGreen-1: #ffffff;
+	--lightGreen-2: #EFE9DD;
 	--black-1: #3b413a;
 	--black-2: #3f3c3c;
 	--black-3: #5b6359;
-	--white-1: #e8e8e8;
+	--white-1: #EFE9DD;
 }
 img {
 	width: 100%;
