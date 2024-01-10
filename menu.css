@@ -2204,8 +2204,8 @@
 	.nav__list {
         z-index: 1000;
         position: absolute;
-        left: 50%; /* Center horizontally */
-        top: 0;
+        left: 50%;
+        top: 0; /* Adjust this value to move the navbar closer to the top */
         height: 100vh;
         width: 80%;
         background: var(--lightGreen-1);
@@ -2213,10 +2213,11 @@
         align-items: center;
         justify-content: flex-end;
         padding-right: 2rem;
-        transform: translateX(-50%); /* Center horizontally */
+        transform: translateX(-50%);
         overflow: hidden;
         transition: 0.3s ease-in transform;
     }
+
 
 
     .nav__list.show {
@@ -2247,4 +2248,46 @@
     .nav__bgOverlay.active {
         display: block;
     }
+}
+.rooster{
+	width: 150px;
+	height: 100%;
+}
+.button {
+	color: var(--green-1);
+	font-family: Poppins;
+	font-weight: 500;
+	border: 2px solid transparent; /* Set border to 2px and make it transparent */
+	border-radius: 50px;
+	font-size: 1.4rem;
+	padding: 1.2rem 2rem;
+	transition: 0.5s;
+  }
+.button:hover{
+	background-color: #ffffff;
+	border-color: #000;
+}  
+  
+  .primary-btn {
+	color: var(--green-1); /* Text color */
+	background: transparent; /* Set background to transparent */
+	border: 2px solid var(--green-1); /* Border color */
+  }
+  .book {
+	color: white ; /* Set the text color to white */
+	border-color: white;
+	transition: 0.5s;
+  }
+  
+  .book:hover {
+	background-color: #000;
+	border-color: #000;
+  }
+  
+  
+@media only screen and (min-width: 700px) {
+	.button {
+		padding: 1.3rem 2rem;
+		font-size: 2rem;
+	}
 }
