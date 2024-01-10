@@ -94,14 +94,14 @@
 	font-family: Poppins;
 	font-weight: 500;
 	border: 2px solid transparent; /* Set border to 2px and make it transparent */
-	border-radius: 50px;
+	border-radius: 8px;
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
 	transition: 0.5s;
   }
 .btn:hover{
-	background-color: #ffffff;
-	border-color: #000;
+	background-color: #8c191c;
+	color: #fff;
 }  
   
   .primary-btn {
@@ -117,8 +117,9 @@
   
   .book:hover {
 	background-color: #000;
-	border-color: #000;
+	border-color: #ffffff;
   }
+  
   
   
 @media only screen and (min-width: 700px) {
