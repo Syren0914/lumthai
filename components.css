@@ -213,7 +213,7 @@
 }
 .dishGrid__item__img img {
 	object-fit: cover;
-	border-radius: 20px;
+	border-radius: 8px;
 }
 .dishGrid__item__title {
 	font-size: 1.4rem;
@@ -243,7 +243,7 @@
 	.dishGrid__item {
 		flex-direction: row;
 		padding: 1.5rem;
-		border-radius: 28px;
+		border-radius: 8px;
 		gap: 1rem;
 	}
 	.dishGrid__item__title {
@@ -351,6 +351,10 @@ footer {
 	font-size: 1.4rem;
 	text-align: center;
 	color: var(--black-1);
+}
+.logo{
+	width: 150px;
+	height: 100%;
 }
 @media only screen and (min-width: 768px) {
 	.copyright__text {
