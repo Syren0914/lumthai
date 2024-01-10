@@ -39,6 +39,10 @@
 	width: 250px;
 	height: 100%;
 }
+a{
+	text-decoration: none;
+	color: white;
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -50,7 +54,7 @@
 		flex: 3;
 	}
 	.hero__right {
-		flex: 4;
+		flex: 6;
 	}
 	.hero__heading {
 		font-size: 3.6rem;
@@ -74,11 +78,12 @@
 		
 		
 	}
+
 }
 @media only screen and (max-width: 900px) {
 	.hero__left,
 	.hero__right {
-		flex: 1;
+		flex: 4;
 	}
 }
 /* Our Specials Section Styles */
@@ -119,7 +124,7 @@
 	margin-bottom: 1rem;
 }
 .ourSpecials__item__price {
-	color: var(--green-1);
+	color: var(--black-1);
 	font-size: 1.4rem;
 	font-weight: 600;
 	margin-bottom: 1rem;
@@ -375,6 +380,7 @@
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
+
 @media only screen and (min-width: 760px) {
 	.eventsInfo__wrapper {
 		flex-direction: row;
@@ -426,6 +432,7 @@
 }
 .whyUs__text {
 	font-size: 1.4rem;
+	color: #fff;
 }
 .whyUs__right {
 	text-align: center;

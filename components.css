@@ -97,13 +97,29 @@
 	border-radius: 50px;
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
+	transition: 0.5s;
   }
+.btn:hover{
+	background-color: #ffffff;
+	border-color: #000;
+}  
   
   .primary-btn {
 	color: var(--green-1); /* Text color */
 	background: transparent; /* Set background to transparent */
 	border: 2px solid var(--green-1); /* Border color */
   }
+  .book {
+	color: white ; /* Set the text color to white */
+	border-color: white;
+	transition: 0.5s;
+  }
+  
+  .book:hover {
+	background-color: #000;
+	border-color: #000;
+  }
+  
   
 @media only screen and (min-width: 700px) {
 	.btn {
@@ -208,7 +224,7 @@
 }
 .dishGrid__item__price {
 	font-size: 1.4rem;
-	color: var(--green-1);
+	color: var(--green-2);
 	font-weight: 600;
 	margin-bottom: 0.5rem;
 }
@@ -334,6 +350,7 @@ footer {
 .copyright__text {
 	font-size: 1.4rem;
 	text-align: center;
+	color: var(--black-1);
 }
 @media only screen and (min-width: 768px) {
 	.copyright__text {
