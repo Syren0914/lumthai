@@ -509,7 +509,7 @@
 	padding: 1rem;
 	display: flex;
 	gap: 1rem;
-	background-color: var(--lightGreen-1);
+	background-color: #e4cfb1;
 	border-radius: 12px;
 }
 .testimonial__item__info {
