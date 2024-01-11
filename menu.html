@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="menu.css">
+<!-- <link rel="stylesheet" href="./reset.css"> -->
+
 
 <head>
   <meta charset="UTF-8">
@@ -10,8 +12,8 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Thai Love - Amazing & Delicious Food</title>
-  <meta name="title" content="Thai Love - Amazing & Delicious Food">
+  <title>Lum Thai - Amazing & Delicious Food</title>
+  <meta name="title" content="Lum Thai - Amazing & Delicious Food">
   <meta name="description" content="This is a Restaurant html template made by codewithsadee">
 
   <!-- 
@@ -30,13 +32,15 @@
     - custom css link
   -->
   <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="components.css">
+  
 
   <!-- 
     - preload images
   -->
-  <link rel="preload" as="image" href="/assets/images/hero-slider-1.jpg">
+  <!-- <link rel="preload" as="image" href="/assets/images/hero-slider-1.jpg">
   <link rel="preload" as="image" href="/assets/images/hero-slider-2.jpg">
-  <link rel="preload" as="image" href="/assets/images/hero-slider-3.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slider-3.jpg"> -->
 
 </head>
 
@@ -48,19 +52,19 @@
 
   <div class="preload" data-preaload>
     <div class="circle"></div>
-    <p class="text">Thai Love</p>
+    <p class="text">Lum Thai</p>
   </div>
   <div class="container">
-    
+<div class="nav">
   <div class="nav__wrapper">
     <a href="./index.html" >
-      <img src="./images/logo.png"  class="rooster" alt="Erdene's cuisine">
+      <img src="./images/logo.png"  class="logo" alt="Erdene's cuisine">
      </a>
     
         <nav>
           <div class="nav__icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-              stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="feather feather-menu">
               <line x1="3" y1="12" x2="21" y2="12" />
               <line x1="3" y1="6" x2="21" y2="6" />
@@ -71,7 +75,7 @@
           <ol class="nav__list">
             <div class="nav__close">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="feather feather-x">
                 <line x1="18" y1="6" x2="6" y2="18" />
                 <line x1="6" y1="6" x2="18" y2="18" />
@@ -87,6 +91,7 @@
             </div>
           </ol>
   </nav>
+</div>
 </div>
 </div>
 
@@ -119,7 +124,7 @@
         <div class="special-dish-content bg-black-10">
           <div class="container">
 
-            <img src="/assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+            <img src="/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
 
             <p class="section-subtitle label-2">Special Dish</p>
 
@@ -145,9 +150,9 @@
           </div>
         </div>
 
-        <img src="/assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+        <img src="/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
 
-        <img src="/assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+        <img src="/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
 
       </section>
 
@@ -284,7 +289,7 @@
               <div class="menu-card hover:card">
 
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="/assets/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                  <img src="/images/menu-5.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
                     class="img-cover">
                 </figure>
 
@@ -311,7 +316,7 @@
               <div class="menu-card hover:card">
 
                 <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
-                  <img src="/assets/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                  <img src="/images/menu-6.png" width="100" height="100" loading="lazy" alt="Opu Fish"
                     class="img-cover">
                 </figure>
 
@@ -346,13 +351,129 @@
             <span class="text text-2" aria-hidden="true">View All Menu</span>
           </a>
 
-          <img src="/assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+          <img src="/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
             class="shape shape-2 move-anim">
-          <img src="/assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+          <img src="/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
             class="shape shape-3 move-anim">
 
         </div>
       </section>
+      <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <!--<img src="./images/logo.svg" alt="Lum Thai's cuisine"> -->
+          </div>
+          <p class="footer__desc">
+            Fresh and delicious traditional Bangladeshi food to delight the whole family.
+          </p>
+          <div class="footer__socials">
+            <h4 class="footer__socials__title">Follow us</h4>
+            <ol class="footer__socials__list">
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-facebook">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-twitter">
+                    <path
+                      d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+                  </svg>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./booking.html">Book Table</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">+880123</a>
+            </li>
+            <li>
+              <a href="#">LumThai@gmail.com</a>
+            </li>
+            <li>
+              <a href="#">806 Muddy Branch Rd, Gaithersburg, MD 20878</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © copyright 2023 MindSpark  | All rights reserved
+      </p>
+    </div>
+  </div>
+  <!-- End Footer -->
 
 
 
@@ -371,10 +492,10 @@
 
       
 
-          <img src="/assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+          <img src="/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
             class="shape shape-1">
 
-          <img src="/assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+          <img src="/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
             class="shape shape-2">
 
         </div>
@@ -408,6 +529,7 @@
     - custom js link
   -->
   <script src="script.js"></script>
+  <script src="main.js"></script>
 
   <!-- 
     - ionicon link
