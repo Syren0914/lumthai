@@ -1,15 +1,18 @@
 /* Nav Styles */
 .nav {
 	padding: 2rem 0;
+	background-color: #0e0d0c;
 }
 .nav__icon,
 .nav__close,
 .nav__bgOverlay {
 	display: none;
+	
 }
 .nav__wrapper {
 	display: flex;
 	justify-content: space-between;
+	
 }
 .nav__list li {
 	display: inline-block;

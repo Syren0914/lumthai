@@ -648,7 +648,7 @@
 	animation: menuBtn 400ms ease-in-out alternate infinite;
   } */
   
-  @keyframes menuBtn {
+  /* @keyframes menuBtn {
 	0% { transform: scaleX(1); }
 	100% { transform: scaleX(0.5); }
   }
@@ -746,16 +746,16 @@
 	margin-block: 30px;
 	margin-inline: auto;
   }
-  
-  .navbar .contact-label { margin-block-end: 10px; }
+   */
+  /* .navbar .contact-label { margin-block-end: 10px; }
   
   .navbar::-webkit-scrollbar-thumb { background-color: var(--white-alpha-10); }
-  
+   */
 
   .logo {
-	width: 150px;
+	width: 10px;
 	height: 100%;
-	margin-left: px; /* Adjust this value as needed */
+	
 }
 
   
@@ -1734,8 +1734,9 @@
   
   }
   /* Nav Styles */
-  .nav {
+  /* .nav {
     padding: 2rem 0;
+	background-color: #0e0d0c;
 	
 	
 }
@@ -1748,9 +1749,12 @@
 
 .nav__wrapper {
     display: flex;
-    justify-content: flex-end; /* Align to the right side */
-	align-items: center;
+    justify-content: flex-start; 
+	align-items:flex-start;
 	height: 70px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	
 	
 }
 
@@ -1799,12 +1803,12 @@
         z-index: 1000;
         position: absolute;
         left: 50%;
-        top: 0; /* Adjust this value to move the navbar closer to the top */
+        top: 0; 
         height: 100vh;
         width: 80%;
         background: var(--lightGreen-1);
         display: flex;
-        align-items: center;
+        align-items: baseline;
         justify-content: flex-end;
         padding-right: 2rem;
         transform: translateX(-50%);
@@ -1815,7 +1819,7 @@
 
 
     .nav__list.show {
-        transform: translate(100%); /* Adjust the value to push it to the right */
+        transform: translate(100%);
     }
 
     .nav__list li {
@@ -1842,7 +1846,7 @@
     .nav__bgOverlay.active {
         display: block;
     }
-}
+} */
 
 .button {
 	color: var(--green-1);
