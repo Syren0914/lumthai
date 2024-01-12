@@ -1734,13 +1734,13 @@
   
   }
   /* Nav Styles */
-  /* .nav {
+   .navs {
     padding: 2rem 0;
 	background-color: #0e0d0c;
 	
 	
 }
-
+/*
 .nav__icon,
 .nav__close,
 .nav__bgOverlay {
@@ -1849,22 +1849,26 @@
 } */
 
 .button {
-	color: var(--green-1);
-	font-family: Poppins;
-	font-weight: 500;
-	border: 2px solid transparent; /* Set border to 2px and make it transparent */
-	border-radius: 50px;
-	font-size: 1.4rem;
-	padding: 1.2rem 2rem;
-	transition: 0.5s;
-  }
-.button:hover{
-	background-color: #ffffff;
-	border-color: #000;
-}  
+    color: var(--green-1);
+    font-family: Poppins;
+    font-weight: 500;
+    
+    border-radius: 8px;
+    font-size: 1.4rem;
+    padding: 1.2rem 2rem;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: #8c191c; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+
+
   
   .primary-btn {
-	color: var(--green-1); /* Text color */
+	color: #fff; /* Text color */
 	background: transparent; /* Set background to transparent */
 	border: 2px solid var(--green-1); /* Border color */
   }
