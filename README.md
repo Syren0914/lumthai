@@ -1,18 +1,18 @@
 ![](./readmeImg/banner.png)
 
-# Shaif's Cuisine 👨‍🍳
+#  MindSpark's   👨‍🍳
 
-**Live preview: [click me](http://shaif-s-cuisine.netlify.app)**
+**Live preview: [click me](http:// MindSpark-s- .netlify.app)**
 
 **Watch on YouTube: ![YouTube Video Views](https://img.shields.io/youtube/views/4y-_3Ayiauw) [https://youtu.be/4y-_3Ayiauw](https://youtu.be/4y-_3Ayiauw)**
 
 ---
 
-### Made with ❤️ by [Shaif Arfan](https://www.instagram.com/shaifarfan08/)
+### Made with ❤️ by [ MindSpark Arfan](https://www.instagram.com/ MindSparkarfan08/)
 
 Like my works and want to support me?
 
-<a href="https://www.buymeacoffee.com/shaifarfan08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
+<a href="https://www.buymeacoffee.com/ MindSparkarfan08" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 45px !important;width: 162.75px !important;" ></a>
 
 ---
 
@@ -35,9 +35,9 @@ You can find all the starter files in `starter_files` branch. You can to go to t
 
 - Basic HTML, CSS
 
-## Developer team of Shaif's Cuisine
+## Developer team of  MindSpark's  
 
-- Shaif Arfan
+-  MindSpark Arfan
 - Anwar saeed
 - MD Moniruzzaman Sojol
 - Lovekesh Pal
@@ -52,7 +52,7 @@ You can find all the starter files in `starter_files` branch. You can to go to t
 
 ## Other projects
 
-📚 [All Web Cifar Project Tutorials](https://github.com/ShaifArfan/wc-project-tutorials)
+📚 [All Web Cifar Project Tutorials](https://github.com/ MindSparkArfan/wc-project-tutorials)
 
 ## FAQ
 
