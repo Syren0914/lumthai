@@ -14,8 +14,10 @@
 }
 .hero__imgWrapper {
 	max-width: 400px;
-	width: 80%;
+	width: 100%;
 	margin: 0 ;
+	justify-content: center;
+	align-items: center;
 }
 .hero__heading {
 	font-family: Poppins;
@@ -72,6 +74,8 @@ a{
 	.hero__imgWrapper {
 		max-width: none;
 		width: 100%;
+		
+		
 		
 		
 	}

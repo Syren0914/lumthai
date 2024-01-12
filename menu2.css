@@ -673,6 +673,7 @@
   .navbar.active {
     visibility: visible;
     transform: translateX(360px);
+    overflow: hidden;
   }
   
   .navbar .close-btn {
@@ -803,6 +804,7 @@
   .hero .slider-item.active {
     opacity: 1;
     visibility: visible;
+    overflow: hidden;
   }
   
   .hero .slider-bg {
@@ -1428,6 +1430,7 @@
   .back-top-btn.active {
     opacity: 1;
     visibility: visible;
+    overflow: hidden;
   }
   
   

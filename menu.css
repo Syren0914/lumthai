@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * copyright 2023 Erdene Batbayar
  */
 
 
@@ -189,7 +189,7 @@
 	
   }
   
-  body.loaded { overflow: overlay; }
+  body.loaded { overflow-x: hidden; }
   
   body.nav-active { overflow: hidden; }
   
@@ -551,7 +551,7 @@
   
   .preload.loaded {
 	transition-delay: 250ms;
-	transform: translateY(100%);
+	/* transform: translateY(100%); */
   }
   
   .circle {
@@ -641,7 +641,7 @@
 	gap: 8px;
   } */
   
-  /* .nav-open-btn {
+   .nav-open-btn {
 	padding: 12px;
 	padding-inline-end: 0;
   }
@@ -655,7 +655,7 @@
 	animation: menuBtn 400ms ease-in-out alternate infinite;
   } */
   
-  /* @keyframes menuBtn {
+  	@keyframes menuBtn {
 	0% { transform: scaleX(1); }
 	100% { transform: scaleX(0.5); }
   }
@@ -682,6 +682,8 @@
   
   .navbar.active {
 	visibility: visible;
+	
+	
 	transform: translateX(360px);
   }
   
@@ -753,11 +755,11 @@
 	margin-block: 30px;
 	margin-inline: auto;
   }
-   */
-  /* .navbar .contact-label { margin-block-end: 10px; }
+   
+   .navbar .contact-label { margin-block-end: 10px; }
   
   .navbar::-webkit-scrollbar-thumb { background-color: var(--white-alpha-10); }
-   */
+   
 
   .logo {
 	width: 10px;
@@ -972,7 +974,7 @@
 	color: var(--quick-silver);
 	font-weight: var(--weight-bold);
 	text-transform: uppercase;
-	letter-spacing: var(--letterSpacing-4);
+		letter-spacing: var(--letterSpacing-4);
 	margin-inline: auto;
 	transition: var(--transition-1);
   }
@@ -1747,7 +1749,7 @@
 	
 	
 }
-/*
+
 .nav__icon,
 .nav__close,
 .nav__bgOverlay {
@@ -1782,6 +1784,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+	body{
+		overflow: hidden
+		;
+	}
     .nav {
         position: fixed;
     }
@@ -1806,14 +1812,14 @@
         cursor: pointer;
     }
 
-	.nav__list {
+    .nav__list {
         z-index: 1000;
         position: absolute;
         left: 50%;
         top: 0; 
         height: 100vh;
         width: 80%;
-        background: var(--lightGreen-1);
+        background: #0e0d0c;
         display: flex;
         align-items: baseline;
         justify-content: flex-end;
@@ -1822,11 +1828,16 @@
         overflow: hidden;
         transition: 0.3s ease-in transform;
     }
-
-
+	.preload{
+		overflow-x: hidden;
+	}
+	.loaded{
+		overflow-x: hidden;
+	}
 
     .nav__list.show {
         transform: translate(100%);
+        overflow-x: hidden; /* Prevent horizontal scrolling when menu is open */
     }
 
     .nav__list li {
@@ -1853,7 +1864,13 @@
     .nav__bgOverlay.active {
         display: block;
     }
-} */
+
+    /* Add this style to the body when the menu is open */
+    
+	body.loaded { overflow-x: hidden; }
+  
+	
+}
 
 .button {
     color: #8c191c;
@@ -1897,4 +1914,16 @@
 		padding: 1.3rem 2rem;
 		font-size: 2rem;
 	}
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+nav{
+	display: block;
 }
