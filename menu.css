@@ -7,7 +7,7 @@
  */
 
 
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 
 
 /*-----------------------------------*\
@@ -1856,10 +1856,11 @@
 } */
 
 .button {
-    color: var(--green-1);
+    color: #8c191c;
     font-family: Poppins;
     font-weight: 500;
-    
+    border: 2px solid ;
+	border-color: #fff;
     border-radius: 8px;
     font-size: 1.4rem;
     padding: 1.2rem 2rem;
@@ -1874,7 +1875,7 @@
 
 
   
-  .primary-btn {
+  .primary-button {
 	color: #fff; /* Text color */
 	background: transparent; /* Set background to transparent */
 	border: 2px solid var(--green-1); /* Border color */
