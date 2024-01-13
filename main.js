@@ -1,3 +1,4 @@
+'use strict';
 const navCloseEl = document.querySelector('.nav__close');
 const navList = document.querySelector('.nav__list');
 const navIconEl = document.querySelector('.nav__icon');
@@ -45,3 +46,8 @@ AOS.init({
 //     item.setAttribute('data-aos', 'fade-up');
 //   })
 // }
+
+
+
+
+
