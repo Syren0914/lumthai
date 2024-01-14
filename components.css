@@ -93,7 +93,7 @@
 /* End Nav Styles */
 /* Global Button Styles */
 .btn {
-	color: var(--green-1);
+	color: var(--green-2);
 	font-family: Poppins;
 	font-weight: 500;
 	border: 2px solid transparent; /* Set border to 2px and make it transparent */
@@ -104,11 +104,11 @@
   }
 .btn:hover{
 	background-color: #8c191c;
-	color: #fff;
+	color: #000;
 }  
   
   .primary-btn {
-	color: var(--green-1); /* Text color */
+	color: var(--green-2); /* Text color */
 	background: transparent; /* Set background to transparent */
 	border: 2px solid var(--green-1); /* Border color */
   }
