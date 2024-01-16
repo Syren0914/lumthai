@@ -167,10 +167,10 @@
           </div>
           <div class="ourSpecials__item">
             <div class="ourSpecials__item__img">
-              <img src="./images/food-2.png" alt="food img">
+              <img src="./images/food-28.png" alt="food img">
             </div>
             <h2 class="ourSpecials__item__title">
-              Chicken Wings
+              Crispy Fish
             </h2>
             <h3 class="ourSpecials__item__price">
               <!-- $18 -->
@@ -180,7 +180,7 @@
             </div>
             <p class="ourSpecials__item__text">
               
-Thai-style chicken wings are a culinary delight, marinated in lemongrass, garlic, and soy for an aromatic touch. Crispy and golden, they're coated in a tantalizing glaze of sweet chili, fish sauce, lime juice, and coconut milk, offering a perfect balance of sweet, savory, and tangy flavors. A Thai twist on a classic favorite.
+Thai-style  Dive into the delightful world of Lum Thai's Crispy Fish. Our chef's expertise meets the freshest catch, delivering a perfectly crispy exterior that gives way to tender and flaky fish inside. The dish is thoughtfully seasoned, offering a harmonious balance of flavors. Lum Thai's Crispy Fish is a culinary masterpiece that showcases the excellence of Thai cuisine in every crispy, flavorful bite.
             </p>
           </div>
         </div>
@@ -471,12 +471,11 @@ Thai-style chicken wings are a culinary delight, marinated in lemongrass, garlic
           </p>
         </div>
         <div class="newsletter__form">
-          <form action="" name="submit-to-google-sheet">
-            <label for="email">
-              <input type="email" placeholder="Your Email Address">
-            </label>
+          <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Your Email" required>
             <button type="submit">Join</button>
           </form>
+          <span id="msg" class="Thank_you"></span>
         </div>
       </div>
     </div>
@@ -628,11 +627,18 @@ Thai-style chicken wings are a culinary delight, marinated in lemongrass, garlic
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz2cROkXrUl-SalvyCqLnk5805e8PFcpToMkinB4aEYKpB_yOynQ6sjbQ7EJSAsmVyEUA/exec'
     const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
   
     form.addEventListener('submit', e => {
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => console.log('Success!', response))
+        .then(response => {
+          msg.innerHTML = "Thank You For Subscribing!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+      form.reset()})
+          
         .catch(error => console.error('Error!', error.message))
     })
   </script>

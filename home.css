@@ -672,4 +672,10 @@ a{
 }
 /* End Newsletter Section */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+.Thank_you{
+	font-size: large;
+	top: 10%;
+	color: rgb(236, 219, 122);
+	font-family: "Poppins","sans-serif";
+}
