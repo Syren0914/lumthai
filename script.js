@@ -126,13 +126,13 @@ heroSliderPrevBtn.addEventListener("click", slidePrev);
  * auto slide
  */
 
-let autoSlideInterval;
+// let autoSlideInterval;
 
-const autoSlide = function () {
-  autoSlideInterval = setInterval(function () {
-    slideNext();
-  }, 7000);
-}
+// const autoSlide = function () {
+//   autoSlideInterval = setInterval(function () {
+//     slideNext();
+//   }, 7000);
+// }
 
 addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseover", function () {
   clearInterval(autoSlideInterval);

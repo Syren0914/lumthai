@@ -47,6 +47,22 @@ AOS.init({
 //   })
 // }
 
+// Add this script at the end of your HTML body or in a separate file
+
+// JavaScript to toggle nav visibility on scroll
+var prevScrollpos = window.pageYOffset;
+
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.querySelector(".nav").style.top = "0";
+    } else {
+        document.querySelector(".nav").style.top = "-100px";
+    }
+    prevScrollpos = currentScrollPos;
+};
+
+
 
 
 

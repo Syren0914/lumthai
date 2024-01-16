@@ -12,6 +12,7 @@
 .nav__wrapper {
 	display: flex;
 	justify-content: space-between;
+	height: 0px;
 	
 }
 .nav__list li {
@@ -64,7 +65,15 @@
 		transform: translate(0%);
 		overflow: hidden;
 		transition: 0.3s ease-in transform;
+		
 	}
+	.preload{
+		overflow-x: hidden;
+	}
+	.loaded{
+		overflow-x: hidden;
+	}
+
 	.nav__list.show {
 		transform: translate(-100%);
 	}
@@ -85,9 +94,13 @@
 		width: 100%;
 		background: rgba(18, 24, 14, 0.808);
 		display: none;
+		
+		
+
 	}
 	.nav__bgOverlay.active {
 		display: block;
+		
 	}
 }
 /* End Nav Styles */
@@ -103,8 +116,8 @@
 	transition: 0.5s;
   }
 .btn:hover{
-	background-color: #8c191c;
-	color: #000;
+	
+	color: var(--green-1);
 }  
   
   .primary-btn {
