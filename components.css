@@ -369,10 +369,7 @@ footer {
 	text-align: center;
 	color: var(--black-1);
 }
-.logo{
-	width: 150px;
-	height: 100%;
-}
+
 @media only screen and (min-width: 768px) {
 	.copyright__text {
 		font-size: 1.6rem;
@@ -548,4 +545,7 @@ footer {
 	100% { background-position: 0%; }
   }
   
-  
+  .logo img {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+}
