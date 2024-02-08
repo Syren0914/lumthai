@@ -2,6 +2,7 @@
 .nav {
 	padding: 2rem 0;
 	background-color: transparent;
+	
 }
 .nav__icon,
 .nav__close,
@@ -13,6 +14,7 @@
 	display: flex;
 	justify-content: space-between;
 	height: 0px;
+	
 	
 }
 .nav__list li {
@@ -114,16 +116,25 @@
 	font-size: 1.4rem;
 	padding: 1.2rem 2rem;
 	transition: 0.5s;
+	
   }
 .btn:hover{
 	
 	color: var(--green-1);
 }  
+.book_table{
+	display: flex;
+	width: 190px;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+}
   
   .primary-btn {
 	color: var(--green-2); /* Text color */
 	background: transparent; /* Set background to transparent */
 	border: 2px solid var(--green-1); /* Border color */
+	padding: 10px;
   }
   .book {
 	color: white ; /* Set the text color to white */

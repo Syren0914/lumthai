@@ -317,9 +317,11 @@ a{
 	gap: 1rem;
 	
 	
+	
 }
 .eventsMedia__1 {
 	position: relative;
+	
 	
 	
 }
@@ -685,4 +687,10 @@ a{
 	font-family: "Poppins","sans-serif";
 }
 
+
+.btn{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
 

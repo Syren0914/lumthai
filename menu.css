@@ -1574,7 +1574,7 @@
 
 .button {
     color: #8c191c;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: 500;
     border: 2px solid ;
 	border-color: #fff;
@@ -1582,10 +1582,11 @@
     font-size: 1.4rem;
     padding: 1.2rem 2rem;
     transition: 0.5s;
+	
 }
   }
 .button:hover {
-    background-color: #8c191c; 
+    background-color: #000000; 
     color: #fff;
 }
   .primary-button {
@@ -1646,10 +1647,14 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1001;
+    /* z-index: 1001; */
     padding: 2rem 0;
     background-color: transparent;
     transition: top 0.3s; /* Add smooth transition */
+	
+}
+.nav__list__wrapper{
+	z-index: 100;
 }
 .buttons,
 .primary-btn {
@@ -1704,4 +1709,8 @@ ul {
 .yelp{
 	width: 20px;
 	height: 20px;
+}
+
+main{
+	margin-top: 100px;
 }
