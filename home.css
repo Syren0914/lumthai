@@ -16,10 +16,17 @@
 	max-width: 400px;
 	width: 100%;
 	margin: 0 ;
+	/* rotate: 60deg; */
+
 	
 	/* justify-content: center;
 	align-items: center; */
 }
+/* .hero__imgWrapper img{
+	width: 450px;
+	margin-left: 100px;
+	
+} */
 .hero__heading {
 	font-family: Poppins;
 	font-weight: 600;
@@ -82,6 +89,7 @@ a{
 		
 		
 	}
+	
 
 }
 @media only screen and (max-width: 900px) {
@@ -593,6 +601,7 @@ a{
 	.testimonial__item__info {
 		flex: auto;
 	}
+	
 }
 /* End Testimonial Section */
 
