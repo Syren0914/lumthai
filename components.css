@@ -107,7 +107,7 @@
 /* Global Button Styles */
 .btn {
 	color: var(--green-2);
-	font-family: Poppins;
+	font-family: "Poppins" ,sans-serif;
 	font-weight: 500;
 	border: 2px solid transparent; /* Set border to 2px and make it transparent */
 	border-radius: 8px;
@@ -159,6 +159,7 @@
 	text-align: center;
 	text-align: center;
 	border-radius: 20px;
+	/* box-shadow: rgb(46, 46, 46) 0px 20px 30px -10px; */
 	
 	width: 150px;
 }

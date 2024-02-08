@@ -1,0 +1,2785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+  <title>Menu | Lum Thai</title>
+  
+  
+  <!-- aos library css  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./globalStyles.css">
+  <link rel="stylesheet" href="./components.css">
+  <link rel="stylesheet" href="./menu2.css">
+  <link rel="stylesheet" href="./menu.css">
+  
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="/assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="/assets/images/hero-slider-3.jpg"> -->
+
+</head>
+
+<body  >
+
+  <!-- 
+    - #PRELOADER
+  -->
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text"><img src="./images/logo.png" alt=""></p>
+  </div>
+ <!-- Nav Section -->
+  <div class="nav">
+    <div class="container">
+      <div class="nav__wrapper">
+        <a href="./index.html" class="logo">
+          <img src="./images/logo.png" alt="Lum Thai's  ">
+        </a>
+        <nav>
+          <div class="nav__icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="feather feather-menu">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
+          </div>
+          <div class="nav__bgOverlay"></div>
+          <ul class="nav__list">
+            <div class="nav__close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-x">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </div>
+            <div class="nav__list__wrapper">
+
+              <li><a class="nav__link" href="./index.html">Home</a></li>
+              <li><a class="nav__link" href="./menu.html">Menu</a></li>
+              <li><a class="nav__link" href="./about.html">About</a></li>
+              <li><a class="nav__link" href="./contact.html">Contact</a></li>
+              <li><a class="nav__link" href="./menu1.html">Special</a></li>
+              <li><a href="./booking.html" class="btn primary-btn  nav__link">Book Table</a></li>
+            
+            
+            </div>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+ 
+
+
+
+
+
+  <main>
+    <article>
+
+
+
+      <!-- 
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="/images/food-42.png" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-covers">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Special Dish</p>
+
+            <h2 class="headline-1 section-title">Fried Chicken</h2>
+
+            <p class="section-text">
+              Indulge in the rich and flavorful experience of Lum Thai's Thai-styled Fried Chicken. Our chef's expert touch brings the perfect blend of Thai spices and culinary mastery to create crispy, golden-brown perfection. Each bite is a journey through the vibrant and aromatic Thai culinary landscape, leaving you craving more of this delectable twist on a classic favorite.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3">$25.00</del>
+
+              <span class="span body-1">$18.00</span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+
+          </div>
+        </div>
+
+        <img src="/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center label-2">Special Selection</p>
+
+          <h2 class="headline-1 section-title text-center">Delicious Menu</h2>
+          <!-- APPETIZERS  -->
+          
+          <!-- <ul class="grid-list">
+          <p class="section-subtitle text-center label-2">Pick your choice of meat: <br>
+            Chicken <span class="span title-2">$13.95</span> <br>
+            Beef / pork <span class="span title-2">$14.95</span> <br>
+            Combo (chicken, pork, beef) <span class="span title-2">$15.95</span> <br>
+          
+            <p class="section-subtitle text-center label-2">Pick your choice of meat: <br>
+            Shrimp <span class="span title-2">$15.95</span> <br>
+            squid, scallops, mussels <span class="span title-2">$16.95</span> <br>
+            Salmon <span class="span title-2">$19.95</span> <br>
+            Tofu & vegetable <span class="span title-2">$13.95</span></p> </ul>
+
+
+            <p class="section-subtitle text-center label-2">Appetizers</p>
+          <ul class="grid-list">
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-17.png"  width="100" height="100" loading="lazy" alt="Chicken satay"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chicken Satay</a>
+                    </h3>
+
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$8.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Chicken skewers served with cucumbers in sweet vinegar sauce and peanut sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Steamed Dumplings"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Steamed Dumplings</a>
+                    </h3>
+
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$8.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Thai-style steamed dumplings stuffed with pork, shrimp and water chestnuts. Served with chef’s special sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-9.png"  width="100" height="100" loading="lazy" alt="Curry puff"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Curry Puffs</a>
+                    </h3>
+
+                    <span class="badge label-1">Appetizer</span>
+
+                    <span class="span title-2">$7.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Flakey and crispy pastry puffs filled with savory curried potatoes, chicken, and onions. Served with cucumbers in sweet vinegar sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-.png"  width="100" height="100" loading="lazy" alt="Crispy Wontons"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crispy Wontons</a>
+                    </h3>
+
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$7.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep fried chicken wontons with house special sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            
+            
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-18.png"  width="100" height="100" loading="lazy" alt="Chicken wings"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chicken Wings</a>
+                    </h3>
+
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$9.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Wings marinated in garlic sauce, then deep fried to perfection. Served with sweet chili dipping sauce
+                  </p>
+
+              </div>
+
+            </div>
+          </li>
+          
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Fried calamari"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Fried calamari</a>
+                      </h3>
+  
+                      <span class="badge label-1">Appetizers</span>
+  
+                      <span class="span title-2">$8.95</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Fresh squid lightly battered and deep fried. Served with sweet & sour sauce.
+
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              
+                <li>
+                  <div class="menu-card hover:card">
+    
+                    <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                      <img src="/images/food-1.png"  width="100" height="100" loading="lazy" alt="Blanket shrimp"
+                        class="img-cover">
+                    </figure>
+    
+                    <div>
+    
+                      <div class="title-wrapper">
+                        <h3 class="title-3">
+                          <a href="#" class="card-title">Blanket Shrimp</a>
+                        </h3>
+    
+                        <span class="badge label-1">Appetizers</span>
+    
+                        <span class="span title-2">$8.95</span>
+                      </div>
+    
+                      <p class="card-text label-1">
+                        Deep fried shrimp wrapped in thin crispy rolls. Served with sweet & sour sauce.
+                      </p>
+    
+                    </div>
+    
+                  </div>
+                </li>
+  
+
+            
+            
+
+            
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-4.png" width="100" height="100" loading="lazy" alt="Crab Rangoon"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crab Rangoon</a>
+                    </h3>
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$8.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Crab with cream cheese cooked in crispy wonton wrappers. Served with sweet and sour sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Spring Rolls"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Spring Rolls</a>
+                    </h3>
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$7.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep fried crispy rolls stuffed with clear noodles, carrots, and cabbage. Served with sweet & sour sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Fried Tofu"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Fried Tofu</a>
+                    </h3>
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$7.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep fried tofu cubes. Served with sweet & sour sauce and crushed peanuts.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Garden Herb Rolls"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Garden Herb Rolls</a>
+                    </h3>
+                    <span class="badge label-1">Appetizers</span>
+
+                    <span class="span title-2">$7.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Fresh rice paper rolls stuffed with lettuce, mixed vegetables, mint, and fresh basil. Served with sweet peanut chili dipping sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <p class="section-subtitle text-center label-2">Soups</p> -->
+          <!-- SOUP  -->
+            <ul class="grid-list">
+          
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Tom Yum"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tom Yum</a>
+                    </h3>
+                    <span class="badge label-1">Soup</span>
+
+                    <span class="span title-2">$7.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Spicy / sour flavored soup made with a combination of fragrant lemongrass, kaffir lime leaves, lime juice, chili paste, tomatoes, red onions, scallions, cilantro, and mushrooms. <br>
+                    Chicken/ Veggie / Soft Tofu <span class="span title-2">$7.00</span> <br>
+                      Shrimp <span class="span title-2">$8.00</span> <br>
+                      Seafood <span class="span title-2">$10.00</span>
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Tom Kha"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Tom Kha</a>
+                    </h3>
+                    <span class="badge label-1">Soup</span>
+
+                    <span class="span title-2">$7.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Spicy / sour / creamy coconut milk lemongrass soup with galangal, shallots, lemongrass, tomatoes, red onions kaffir lime leaves, lime juice, chili paste, scallions,  and mushrooms.
+                    Chicken/ Veggie / Soft Tofu <span class="span title-2">$7.00</span> <br>
+                      Shrimp <span class="span title-2">$8.00</span> <br>
+                      Seafood <span class="span title-2">$10.00</span>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Veggie Soup"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Veggie Soup</a>
+                    </h3>
+                    <span class="badge label-1">Soup</span>
+
+                    <span class="span title-2">$7.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Vegetable broth soup with mixed vegetables, scallions, and cilantro. Topped with crispy garlic.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Wonton Soup"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Wonton Soup</a>
+                    </h3>
+                    <span class="badge label-1">Soup</span>
+
+                    <span class="span title-2">$8.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Wontons stuffed with minced chicken/shrimp in a clear broth with carrots, scallions, cilantro, white pepper, napa, and fried garlic.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            </ul>
+
+            <p class="section-subtitle text-center label-2">Salad</p>
+            <!-- SALAD  -->
+            <ul class="grid-list">
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Nam tok salad"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Nam Tok Salad</a>
+                    </h3>
+
+                    <span class="badge label-1">Salad</span>
+
+                    <span class="span title-2">$10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Flank beef marinated and tossed with a fresh green salad that has, chilis, lime juice, mint, red onions, cilantro, and a roasted rice dressing.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            
+            
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Papaya Salad"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Papaya Salad</a>
+                      </h3>
+  
+                      <span class="badge label-1">Salad</span>
+  
+                      <span class="span title-2">$10.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Papaya shredded and mixed/tossed with chili, garlic, lime dressing, green beans, tomatoes, and peanuts.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              
+                
+                  <li>
+                    <div class="menu-card hover:card">
+      
+                      <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                        <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Papaya Salad with Shrimp"
+                          class="img-cover">
+                      </figure>
+      
+                      <div>
+      
+                        <div class="title-wrapper">
+                          <h3 class="title-3">
+                            <a href="#" class="card-title">Papaya Salad with Shrimp</a>
+                          </h3>
+      
+                          <span class="badge label-1">Salad</span>
+      
+                          <span class="span title-2">$12.00</span>
+                        </div>
+      
+                        <p class="card-text label-1">
+                          Papaya shredded and mixed/tossed with chili, garlic, lime dressing, green beans, tomatoes, and peanuts.
+                        </p>
+      
+                      </div>
+      
+                    </div>
+                  </li>
+                  
+                   
+                    </ul>
+                    <p class="section-subtitle text-center label-2">Curries</p>
+
+
+                    <!-- CURRIES  -->
+
+
+            <ul class="grid-list">
+            
+             
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-10.png"  width="100" height="100" loading="lazy" alt="Green curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Green Curry</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Green curry paste blended with rich creamy coconut milk and combined with eggplants, bell peppers, bamboo shoots, and sweet basil leaves. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-10.png"  width="100" height="100" loading="lazy" alt="Red curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Red Curry</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Red curry paste blended with rich creamy coconut milk and combined with eggplants, bell peppers, bamboo shoots, and sweet basil leaves. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Mango Curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Mango Curry</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Creamy coconut red curry combined with pieces of fresh mango, basil, bell peppers. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Panang Curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Panang Curry</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Panang curry paste blended with rich creamy coconut milk combined with peanut, basil, broccoli, bell peppers, and kar lime leaves. Cooked with your choice.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-27.png"  width="100" height="100" loading="lazy" alt="Massaman Curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Massaman Curry</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Massaman curry paste blended with rich creamy coconut milk and combined with potatoes, onions, carrots, peanuts, and topped with fried red onions. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <p class="section-subtitle text-center label-2">Fried Rice</p>
+
+              <!-- FRIED RICE  -->
+
+
+          <ul class="grid-list">
+            
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-15.png"  width="100" height="100" loading="lazy" alt="Thai Fried Rice "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Thai Fried Rice</a>
+                    </h3>
+
+                    <span class="badge label-1">Fried Rice</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with jasmine rice, eggs onions, scallions and cherry tomatoes stir fried together.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-26.png"  width="100" height="100" loading="lazy" alt="Basil Fried Rice "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Basil Fried Rice</a>
+                    </h3>
+
+                    <span class="badge label-1">Fried Rice</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with jasmine rice, bell peppers, and sweet basil stir-fried together in a chili garlic sauce.
+                    
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/food-22.png"  width="100" height="100" loading="lazy" alt="Crab Meat Fried Rice"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Crab Meat Fried Rice</a>
+                      </h3>
+  
+                      <span class="badge label-1">Fried Rice</span>
+  
+                      <span class="span title-2">$20.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Stir-fried jasmine rice with crab meat, eeg, carrot, onion, and celery.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+            </ul>
+
+            <p class="section-subtitle text-center label-2">Noodles</p>
+
+            <!-- NOODLES  -->
+
+
+            <ul class="grid-list">
+
+              
+
+              
+
+
+             
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-19.png"  width="100" height="100" loading="lazy" alt="Drunken lo mien"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Drunken Lo Mien</a>
+                    </h3>
+
+                    <span class="badge label-1">Noodles</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Lo mien noodles stir-fried in chili and garlic sauce with tomatoes, carrots, onions, bell peppers, and sweet basil. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Street Noodles"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Street Noodles</a>
+                    </h3>
+
+                    <span class="badge label-1">Noodles</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Stir-fried wide rice noodles with string beans, bamboo shoots, finger root, carrots, and sweet basil leaves in chef’s special chili paste and garlic sauce. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Pad See Ew"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad See Ew</a>
+                    </h3>
+
+                    <span class="badge label-1">Noodles</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Wide rice noodles stir-fried with eggs, sweet black soy sauce, and broccoli. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-37.png"  width="100" height="100" loading="lazy" alt="Drunken noodles"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Drunken Noodles</a>
+                    </h3>
+
+                    <span class="badge label-1">Noodles</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Wide rice  noodles stir-fried in chili and garlic sauce with tomatoes, carrots, onions, bell peppers, and sweet basil. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+          <p class="section-subtitle text-center label-2">Entree</p>
+          
+          
+          
+                      <!-- ENTREE  -->
+          
+          
+          
+          <ul class="grid-list">
+            
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-23.png"  width="100" height="100" loading="lazy" alt="Pad Ginger"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad Ginger</a>
+                    </h3>
+
+                    <span class="badge label-1">Entrees</span>
+
+                    <span class="span title-2">$25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with ginger, white/green onions, bell peppers, mushrooms, cilantro, fried garlic stir-fried together in lite soy sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Pad Veggies"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad Veggies</a>
+                    </h3>
+
+                    <span class="badge label-1">Entrees</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with mixed vegetables stir-fried together in a lite garlic sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Lum Thai Garlic"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lum Thai Garlic</a>
+                    </h3>
+
+                    <span class="badge label-1">Entrees</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with broccoli stir-fried together in a garlic sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Lum Thai Garlic"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad Ka Prao</a>
+                    </h3>
+
+                    <span class="badge label-1">Entrees</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with onions, string beans, bell green peppers, sweet basil stir-fried together in garlic sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-39.png"  width="100" height="100" loading="lazy" alt="Pad eggplant "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad Eggplant </a>
+                    </h3>
+
+                    <span class="badge label-1">Entrees</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Your choice of meat with bell peppers, Chinese eggplants, sweet basil stir-fried together in a spicy black bean sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+          </ul>
+           
+          <p class="section-subtitle text-center label-2">SPECIALS</p>
+
+                        <!-- SPECIALSES -->
+
+          <ul class="grid-list">
+            
+
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-15.png"  width="100" height="100" loading="lazy" alt="Fried Rice"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Chicken Pop</a>
+                    </h3>
+
+                    <span class="badge label-1">SPECIALS</span>
+
+                    <span class="span title-2">$10.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Thai style popcorn chicken.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-6.png"  width="100" height="100" loading="lazy" alt="Lum Thai Pad Thai"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pad Thai</a>
+                    </h3>
+
+                    <span class="badge label-1">Curry</span>
+
+                    <span class="span title-2">$13.95</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Traditional Thai thin rice noodles stir-fried in tamarind sauce with eggs, scallions, and bean sprouts, topped with crushed peanuts. Cooked with your choice of meat.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-15.png"  width="100" height="100" loading="lazy" alt="Fried Rice"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Pineapple Fried Rice</a>
+                    </h3>
+
+                    <span class="badge label-1">SPECIALS</span>
+
+                    <span class="span title-2">$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Stir-fried jasmine rice with shrimps, eegs, pineapple, cashew nut, tomatoes and scallions served in a pineapple shell.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-7.png" width="100" height="100" loading="lazy" alt="Crispy duck curry"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crispy Duck Curry</a>
+                    </h3>
+                    <span class="badge label-1">SPECIALS</span>
+                    <span class="span title-2">$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Boneless deep-fried duck in creamy coconut red curry sauce with pineapple, cherry tomatoes, bell peppers, basil leaves, and lychee. Served with jasmine rice.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Crispy Chicken Ka Prao"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Crispy Chicken Ka Prao</a>
+                      </h3>
+                      <span class="badge label-1">SPECIALS</span>
+                      <span class="span title-2">$16.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Deep-fried crispy chicken stir-fried with spicy and sweet basil sauce, bell peppers, and onions topped with fried basil leaves.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png" width="100" height="100" loading="lazy" alt="Chrispy Shrimp Ka Prao"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Chrispy Shrimp Ka Prao</a>
+                      </h3>
+                      <span class="badge label-1">SPECIALS</span>
+                      <span class="span title-2">$18.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Deep-fried  crispy shrimp stir-fried with spicy and sweet basil sauce, bell peppers, and onions topped with fried basil leaves.
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-8.png"  width="100" height="100" loading="lazy" alt="Crispy eggplant"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crispy Eggplant</a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+                    <span class="span title-2">$18.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Lightly battered crispy eggplant and bell peppers topped with chili basil and garlic sauce. Served with jasmine rice.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            
+            
+            
+           
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-14.png"  width="100" height="100" loading="lazy" alt="papaya salad with fried chicken "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Papaya Salad With Fried Chicken </a>
+                    </h3>
+                    <span class="badge label-1">Specials</span>
+
+                    <!-- <span class="badge label-1">Seasonal</span> -->
+
+                    <span class="span title-2">$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Papaya salad with our cooked to prefection crispy chicken and a scoop of sticky rice
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Lum Thai Cashew Chicken "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lum Thai Cashew Chicken </a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+                    <span class="span title-2">$18.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep Fried Chicken  stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Lum Thai Cashew Shrimp"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Lum Thai Cashew Shrimp </a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+
+                    <span class="span title-2">$18.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep Fried Chicken or Shrimp stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Khao Soi "
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Khao Soi  </a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+                    <span class="span title-2">$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Thai traditional northern style fresh turmeric soup with chicken thigh cilantro, scallions, creamy coconut curry, and egg noodles. Served with pickled cabbage and red onions.
+
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            
+            
+            
+            
+            
+            
+            <!-- <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-21.png"  width="100" height="100" loading="lazy" alt="Crispy Duck Ka Prao"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crispy Duck Ka Prao</a>
+                    </h3>
+
+                    <span class="badge label-1">Seasonal</span>
+
+                    <span class="span title-2">$25.50</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Boneless deep-fried duck in creamy coconut red curry sauce with pineapple cherry tomatoes, bell peppers, basil leaves, and lychee. Served with jasmine rice
+                  </p>
+
+                </div>
+
+              </div>
+            </li> -->
+           
+            
+            
+            
+            
+            
+            
+            
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-28.png"  width="100" height="100" loading="lazy" alt="Crispy Whole Flounder"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Crispy Whole Flounder Fish (Market price)</a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+                    <span class="span title-2">$50.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Deep fried whole flounder with your choice one sauce. Served with jasmine rice. <br>
+                          Choice of sauce: <br>
+                          1. Chili basil garlic sauce <br>
+                            (With onions, basil & bell peppers) <br>
+                          2. Spicy chili mango salad  <br>
+                              ( with red onions, scallions & cilantro) <br>
+                          3. Theee flavor sauce ( sour, sweet and spicy) <br>
+                              (With tamarind juice, onions & bell peppers) <br>
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="/images/food-33.png"  width="100" height="100" loading="lazy" alt="Beef Sizzling"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="#" class="card-title">Beef Sizzling</a>
+                    </h3>
+
+                    <span class="badge label-1">Specials</span>
+
+                    <span class="span title-2">$20.00</span>
+                  </div>
+
+                  <p class="card-text label-1">
+                    Sizzling beef served with sauté mix vegetable and mushroom on a hot plate served with jasmine rice.
+                    
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+            </ul>
+            <p class="section-subtitle text-center label-2">Dessert</p>
+          <!-- SOUP  -->
+            <ul class="grid-list">
+            
+
+
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/food-13.png"  width="100" height="100" loading="lazy" alt="Sticky rice with mango"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sticky Rice With Mango</a>
+                      </h3>
+  
+                      <span class="badge label-1">Dessert</span>
+  
+                      <span class="span title-2">$8.95</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Fresh soft mango served with sweetened sticky rice and topped with sweet coconut  cream
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Crispy Fried Banana With Coco Ice Cream"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Crispy Fried Banana With Coco Ice Cream</a>
+                      </h3>
+  
+                      <span class="badge label-1">Dessert</span>
+  
+                      <span class="span title-2">$8.95</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      Banana wrapped in rice paper and deep fried to perfection. Served with one scoop of cocnut ice cream.
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Coconut Ice Cream"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Coconut Ice Cream</a>
+                      </h3>
+  
+                      <span class="badge label-1">Dessert</span>
+  
+                      <span class="span title-2">$5.95</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Green Tea Ice Cream"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Green Tea Ice Cream</a>
+                      </h3>
+  
+                      <span class="badge label-1">Dessert</span>
+  
+                      <span class="span title-2">$5.95</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              
+              
+              
+
+            </ul>
+          <p class="section-subtitle text-center label-2"> Drinks</p>
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Crispy Fried Banana"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Thai Iced Tea</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$5.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Coke"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Coke</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Coke"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Diet Coke</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Sprite"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sprite</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Ginger Ale"
+                      class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Ginger Ale</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Bottled Water" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Bottled Water</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$2.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/food-35.png"  width="100" height="100" loading="lazy" alt="Bottled Water" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Logan Juice</a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$5.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              
+              
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Lemonade" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lemonade
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Hot Green Tea" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Hot Green Tea
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Hot Jasmin Tea" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Hot Jasmine Tea
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Ice Tea" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Iced Black Tea
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Sparking Water" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Sparking Water
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Drinks</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              
+              
+              
+            </ul>
+            <p class="section-subtitle text-center label-2">Sides</p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Brown Rice" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Brown Rice
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Side Thin Noodles" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Side Thin Noodles
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Side Wide Noodles" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Side Wide Noodles
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Side Mix Vegetable" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Side Mix Vegetable
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Side Broccoli" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Side Broccoli
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Chicken" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Extra Chicken
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+             
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Pork" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Extra Pork
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Beef" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Extra Beef
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Shrimp" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Extra Shrimp
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$6.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Seafood" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Extra Seafood
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$6.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Egg" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">
+                          Extra Egg
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$2.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Veggie" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">
+                          Extra Veggie
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Extra Fried Tofu" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">
+                          Extra Fried Tofu
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$4.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Sub Brown Rice" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">
+                          Sub Brown Rice
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li>
+                <div class="menu-card hover:card">
+  
+                  <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                    <img src="/images/logo.png"  width="100" height="100" loading="lazy" alt="Sticky Rice" class="img-cover">
+                  </figure>
+  
+                  <div>
+  
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">
+                          Sticky Rice
+                        </a>
+                      </h3>
+  
+                      <span class="badge label-1">Sides</span>
+  
+                      <span class="span title-2">$3.00</span>
+                    </div>
+  
+                    <p class="card-text label-1">
+                      
+                      
+                    </p>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+
+
+            </ul>
+  
+            
+            
+                
+          </ul>
+          
+
+          <!-- <p class="menu-text text-center">
+            During winter daily from <span class="span">7:00 pm</span> to <span class="span">9:00 pm</span>
+          </p> -->
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">View All Menu</span>
+
+            <span class="text text-2" aria-hidden="true">View All Menu</span>
+          </a>
+
+          <img src="/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+      <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__col1">
+          <div class="footer__logo">
+            <img src="./images/logo.png" alt="Lum Thai's  ">
+          </div>
+          <p class="footer__desc">
+            Fresh and delicious traditional Thai food to delight the whole family.
+          </p>
+          <div class="footer__socials">
+            <h4 class="footer__socials__title">Follow us</h4>
+            <ol class="footer__socials__list">
+              <li>
+                <a target=”_blank” href="https://www.facebook.com/profile.php?id=100092232456910">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-facebook">
+                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+
+                </a>
+              </li>
+              <li>
+                <a target=”_blank” href="https://www.instagram.com/lumthai_md/">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="black" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-instagram">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a target=”_blank” href="https://www.yelp.com/biz/lum-thai-gaithersburg" class="box">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                    <svg height="24px" width="24px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                      viewBox="0 0 228.097 228.097" xml:space="preserve">
+                    <g>
+                      <path style="fill:#000000;" d="M173.22,68.06c8.204,6.784,30.709,25.392,27.042,38.455c-1.696,5.867-8.434,7.746-13.43,9.579
+                        c-11.505,4.171-23.33,7.471-35.339,9.9c-9.717,1.971-30.48,6.279-26.63-10.909c1.512-6.646,6.875-12.284,11.184-17.28
+                        c8.846-10.404,17.876-21.405,28.555-29.93c0.871-0.688,1.925-0.871,2.842-0.733C169.232,66.41,171.386,66.502,173.22,68.06z"/>
+                      <path style="fill:#000000;" d="M161.119,205.197c-7.196-5.821-12.284-14.942-16.684-22.917c-4.309-7.7-11.092-17.876-12.238-26.813
+                        c-2.337-18.38,24.292-7.333,31.947-4.675c10.175,3.575,37.447,7.517,34.422,23.421c-2.521,12.971-18.151,28.784-31.213,30.801
+                        c-0.137,0.046-0.321,0-0.504,0c-0.046,0.046-0.092,0.092-0.137,0.137c-0.367,0.183-0.779,0.413-1.192,0.596
+                        C163.961,206.573,162.449,206.252,161.119,205.197z"/>
+                      <path style="fill:#000000;" d="M101.58,157.896c14.484-6.004,15.813,10.175,15.721,19.984c-0.137,11.688-0.504,23.421-1.375,35.063
+                        c-0.321,4.721-0.137,10.405-4.629,13.384c-5.546,3.667-16.225,0.779-21.955-1.008c-0.183-0.092-0.367-0.183-0.55-0.229
+                        c-12.054-2.108-26.767-7.654-28.188-18.792c-0.138-1.283,0.367-2.429,1.146-3.3c0.367-0.688,0.733-1.329,1.146-1.925
+                        c1.788-2.475,3.85-4.675,5.913-6.921c3.483-5.179,7.242-10.175,11.229-14.988C85.813,172.197,92.917,161.471,101.58,157.896z"/>
+                      <path style="fill:#000000;" d="M103.689,107.661c-21.13-17.371-41.71-44.276-52.344-69.164
+                        c-8.113-18.93,12.513-30.48,28.417-35.705c21.451-7.059,29.976-0.917,32.13,20.534c1.788,18.471,2.613,37.08,2.475,55.643
+                        c-0.046,7.838,2.154,20.488-2.429,27.547c0.733,2.888-3.621,4.95-6.096,2.979c-0.367-0.275-0.733-0.642-1.146-0.963
+                        C104.33,108.303,104.009,108.028,103.689,107.661z"/>
+                      <path style="fill:#000000;" d="M101.397,134.566c1.696,7.517-3.621,10.542-9.854,13.384c-11.092,4.996-22.734,8.984-34.422,12.284
+                        c-6.784,1.879-17.188,6.371-23.742,1.375c-4.95-3.758-5.271-11.596-5.729-17.28c-1.008-12.696,0.917-42.993,18.517-44.276
+                        c8.617-0.596,19.388,7.104,26.447,11.138c9.396,5.409,19.48,11.596,26.492,20.076C100.159,131.862,101.03,132.916,101.397,134.566z
+                        "/>
+                    </g>
+                    </svg>
+                </a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer__col2">
+          <h3 class="footer__text__title">
+            Links
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="./booking.html">Book Table</a>
+            </li>
+            <li>
+              <a href="./about.html">About Us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact Us</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col3">
+          <h3 class="footer__text__title">
+            Support
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a target="_blank" href="mailto:sales.lumthai@gmail.com">Contact us</a>  
+            </li>
+            <li>
+              <a href="#">Support Center</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+          </ol>
+        </div>
+        <div class="footer__col4">
+          <h3 class="footer__text__title">
+            Contact
+          </h3>
+          <ol class="footer__text">
+            <li>
+              <a href="#">240-246-7211</a>
+            </li>
+            <li>
+              <a href="#">LumThai@gmail.com</a>
+            </li>
+            <li>
+              <a href="#">806 Muddy Branch Rd, Gaithersburg, MD 20878</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div id="copyright">
+    <div class="container">
+      <p class="copyright__text">
+        © copyright 2023 MindSpark  | All rights reserved
+      </p>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+
+          <img src="/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+  <script src="main.js"></script>
+
+
+</body>
+
+</html>
