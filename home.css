@@ -14,7 +14,7 @@
 }
 .hero__imgWrapper {
 	max-width: 400px;
-	width: 100%;
+	width: auto;
 	margin: 0 ;
 	/* rotate: 60deg; */
 
@@ -22,11 +22,11 @@
 	/* justify-content: center;
 	align-items: center; */
 }
-/* .hero__imgWrapper img{
-	width: 450px;
+.hero__imgWrapper img{
+	width: 800px;
 	margin-left: 100px;
 	
-} */
+}
 .hero__heading {
 	font-family: Poppins;
 	font-weight: 600;
@@ -90,6 +90,20 @@ a{
 		
 	}
 	
+
+}
+@media screen and (max-width: 400px) {
+	.hero__imgWrapper img{
+		margin: auto;
+		display: block;
+		width: 350px;
+		object-fit: cover;
+    	
+
+		
+		
+
+	}
 
 }
 @media only screen and (max-width: 900px) {
