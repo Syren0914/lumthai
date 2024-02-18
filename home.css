@@ -50,7 +50,10 @@ a{
 	text-decoration: none;
 	color: white;
 }
-
+.storeInfo__item{
+	width: 200px;
+	height: 300px;
+}
 
 @media only screen and (min-width: 768px) {
 	.hero__wrapper {
