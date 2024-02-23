@@ -259,10 +259,10 @@ a{
 	flex: 3;
 }
 .discount__images img {
-	object-fit: cover;
-	width: fit-content;
-	margin-left: 40px;
-	border-radius: 12px;
+	/* object-fit: cover; */
+	/* width: fit-content; */
+	/* margin-left: 40px; */
+	/* border-radius: 12px; */
 }
 .discount__text {
 	font-size: 1.4rem;
@@ -294,6 +294,15 @@ a{
 	width: max-content;
 	height: 15px;
 	margin-bottom: 1rem;
+}
+@media only screen and (min-width: 400px) {
+	.discount__images img {
+		object-fit: cover;
+		width: fit-content;
+		margin-left: 40px;
+		border-radius: 12px;
+	}
+
 }
 @media only screen and (min-width: 768px) {
 	.discount__wrapper {
