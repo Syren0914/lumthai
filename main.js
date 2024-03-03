@@ -66,4 +66,18 @@ window.onscroll = function () {
 
 
 
+// Function to show the popup
+function showPopup() {
+  document.getElementById("popupContainer").style.display = "block";
+}
+
+// Function to close the popup
+function closePopup() {
+  document.getElementById("popupContainer").style.display = "none";
+}
+
+// Call the showPopup function when the page loads
+window.onload = function() {
+  showPopup();
+};
 
