@@ -28,7 +28,7 @@
 	
 }
 .hero__heading {
-	font-family: Poppins;
+	font-family: "Poppins", sans-serif;
 	font-weight: 600;
 	line-height: 1.4em;
 	text-align: center;
