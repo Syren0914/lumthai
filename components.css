@@ -1,3 +1,26 @@
+/* width */
+::-webkit-scrollbar {
+	width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #8c191c;
+	transition: 0.5s;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #7f171b;
+  }
+
+
+
 /* Nav Styles */
 .nav {
 	padding: 2rem 0;
@@ -23,9 +46,10 @@
 }
 .nav__list .nav__link {
 	font-size: 1.8rem;
-	font-family: Poppins;
+	font-family: Sriracha;
 	color: var(--black-2);
 	padding: 0.5rem;
+	transition: 0.5s;
 }
 .nav__list li:hover .nav__link {
 	color: var(--green-1);
@@ -109,7 +133,7 @@
 /* Global Button Styles */
 .btn {
 	color: var(--green-2);
-	font-family: "Poppins" ,sans-serif;
+	font-family: "Sriracha" ,sans-serif;
 	font-weight: 500;
 	border: 2px solid transparent; /* Set border to 2px and make it transparent */
 	border-radius: 8px;
@@ -181,7 +205,7 @@
 }
 .storeInfo__title {
 	font-size: 1.4rem;
-	font-family: Poppins;
+	font-family: Sriracha;
 	font-weight: 500;
 	margin-bottom: 0.5rem;
 	color: var(--black-1);
@@ -409,7 +433,7 @@ footer {
 }
 .form__group label {
 	font-size: 1.6rem;
-	font-family: Poppins;
+	font-family: Sriracha;
 	color: var(--black-2);
 	font-weight: 500;
 }

@@ -7,7 +7,7 @@
  */
 
 
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sriracha:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 
 
 /*-----------------------------------*\
@@ -1574,7 +1574,7 @@
 
 .button {
     color: #8c191c;
-    font-family: "Poppins", sans-serif;
+    font-family: "Sriracha", sans-serif;
     font-weight: 500;
     border: 2px solid ;
 	border-color: #fff;
@@ -1665,7 +1665,7 @@ ul {
 
 .buttons {
     color: var(--green-2);
-    font-family: Poppins;
+    font-family: Sriracha;
     font-weight: 500;
     border: 2px solid transparent; /* Set border to 2px and make it transparent */
     border-radius: 8px;

@@ -10,11 +10,12 @@
 	gap: 5rem;
 }
 .hero__left__wrapper {
-	max-width: 350px;
+	max-width: 550px;
 }
 .hero__imgWrapper {
-	max-width: 400px;
-	width: auto;
+	justify-content: center;
+	
+	/* width: auto; */
 	margin: 0 ;
 	/* rotate: 60deg; */
 
@@ -22,19 +23,79 @@
 	/* justify-content: center;
 	align-items: center; */
 }
-.hero__imgWrapper img{
-	width: 800px;
-	margin-left: 100px;
+.order_online{
+	padding: 10px;
+	border: 2px  solid #8c191c;
+	border-radius: 8px;
+	font-size: 2rem;
+	font-family: "Sriracha" , sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	transition: 0.5s;
+}
+.order_online:hover{
+	color: #8c191c;
+	/* border: #fff; */
+}
+
+.hero__heading {
+	font-family: "Sriracha", sans-serif;
+	font-size: 5rem;
+	color: white;
+	text-align: center;
 	
 }
-.hero__heading {
-	font-family: "Poppins", sans-serif;
-	font-weight: 600;
-	line-height: 1.4em;
+.hero__icons {
+    display: flex;
+	/* flex-direction: column; */
+    margin-top: 5rem;
+    /* width: 30rem; */
+    gap: 3rem;
+}
+.doordash{
+	transition: 0.5s
+}
+.doordash:hover{
+	fill: #8c191c;
+	transform: translate(0%, -20%);
+	/* height: 2.3rem; */
+
+}
+.grubhub{
+	transition: 0.5s
+}
+.grubhub:hover{
+	fill: #8c191c;
+	transform: translate(0%, -20%);
+	/* height: 2.3rem; */
+
+}
+.uber-eats{
+	transition: 0.5s
+}
+.uber-eats:hover{
+	fill: #8c191c;
+	transform: translate(0%, -20%);
+	/* height: 2.3rem; */
+
+}
+.hero__icons img {
+    height: 2rem; /* Adjust the height as needed */
+	
+}
+.hero__title{
+	font-family: "Monoton", sans-serif;
+	font-size: 4rem;
+	letter-spacing: 0.5rem;
+	color: #fff;
 	text-align: center;
-	font-size: 1.8rem;
-	margin-bottom: 1.5rem;
-	color: var(--black-1);
+	margin-bottom: 2rem;
+}
+.hero__left__wrapper p{
+	
+	font-family: "Sriracha", sans-serif;
+	line-height: 3rem;
+	
 }
 .hero__info {
 	text-align: center;
@@ -61,13 +122,12 @@ a{
 		gap: 0;
 	}
 	.hero__left {
-		flex: 3;
+		/* flex: 3;	 */
 	}
-	.hero__right {
-		flex: 6;
-	}
+	
+	
 	.hero__heading {
-		font-size: 3.6rem;
+		/* font-size: 3.6rem; */
 		margin-bottom: 2rem;
 		text-align: left;
 	}
@@ -82,9 +142,10 @@ a{
 	.button__wrapper {
 		text-align: left;
 	}
-	.hero__imgWrapper {
-		max-width: none;
-		width: 100%;
+	.hero__imgWrapper img{
+		/* max-width: none; */
+		width: 500px;
+		justify-content: center;
 		height: 100vh;
 		
 		
@@ -101,11 +162,11 @@ a{
 		display: block;
 		width: 350px;
 		object-fit: cover;
-    	
 
-		
-		
-
+	}
+	.storeInfo__item{
+		height: 200px;
+		text-align: center;
 	}
 
 }
@@ -302,6 +363,10 @@ a{
 		margin-left: 40px;
 		border-radius: 12px;
 	}
+	.hero__title{
+		font-size: 8rem;
+		text-align: left;
+	}
 
 }
 @media only screen and (min-width: 768px) {
@@ -475,7 +540,7 @@ a{
 	text-align: center;
 }
 .whyUs__title {
-	font-family: Poppins;
+	font-family: Sriracha;
 	font-size: 1.8rem;
 	color: var(--black-1);
 	font-weight: 500;
@@ -504,7 +569,7 @@ a{
 	margin-bottom: 1rem;
 }
 .whyUs__item__text {
-	font-family: Poppins;
+	font-family: Sriracha;
 	font-size: 1.4rem;
 	font-weight: 500;
 	color: var(--black-1);
@@ -587,7 +652,7 @@ a{
 }
 .testimonial__item__name {
 	font-size: 1.4rem;
-	font-family: poppins;
+	font-family: Sriracha;
 	margin-bottom: 1rem;
 }
 .testimonial__item__stars {
@@ -720,12 +785,12 @@ a{
 }
 /* End Newsletter Section */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha:wght@500;600&family=Raleway:wght@400;500;600&display=swap');
 .Thank_you{
 	font-size: large;
 	top: 10%;
 	color: rgb(236, 219, 122);
-	font-family: "Poppins","sans-serif";
+	font-family: "Sriracha","sans-serif";
 }
 
 
