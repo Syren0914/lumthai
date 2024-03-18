@@ -340,6 +340,9 @@ margin-block-end:12px
 .special-dish .section-text {
 margin-block:16px 40px
 }
+.special-dish{
+	z-index: 1000;
+}
 
 .special-dish-content .wrapper {
 display:flex;
@@ -664,6 +667,9 @@ right:0
 max-width:max-content;
 margin-inline:auto;
 margin-block-end:40px
+}
+.logo{
+	z-index: 1000;
 }
 
 .footer-brand :is(.body-4,.label-1) {
