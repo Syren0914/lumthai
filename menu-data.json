@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Tom Yum",
+      "image": "/images/logo.png",
+      "description": "Spicy / sour flavored soup made with a combination of fragrant lemongrass, kaffir lime leaves, lime juice, chili paste, tomatoes, red onions, scallions, cilantro, and mushrooms.",
+      "price": "$7.00",
+      "choices": [
+        { "name": "Chicken/Veggie/Soft Tofu", "price": "$7.00" },
+        { "name": "Shrimp", "price": "$8.00" },
+        { "name": "Seafood", "price": "$10.00" }
+      ],
+      "category": "Soup"
+    },
+    {
+        "name": "Chicken Pop",
+        "image": "/images/food-15.png",
+        "lightbox": "food-15",
+        "description": "Thai style popcorn chicken.",
+        "price": "$10.00",
+        "specials": true
+    }
+    
+  ]
+  
