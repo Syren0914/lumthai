@@ -1,18 +1,12 @@
 // Sample menu data (you can replace it with your actual menu data)
 const menuData = {
     specials: [
-      {
-        name: "Chicken Pop",
-        price: "10.00",
-        description: "Thai style popcorn chicken.",
-        image: "/images/food-15.png",
-        type:"specials"
-      },
+      
       {
         name:"Pad Thai",
         price:"13.95",
         description: "Traditional Thai thin rice noodles stir-fried in tamarind sauce with eggs, scallions, and bean sprouts, topped with crushed peanuts. Cooked with your choice of meat.",
-        image: "/images/food-6.png",
+        image: "/Lumthai_Food/nooddle and Rice/Pad thai beef.jpg",
         type:"specials"
 
       },
@@ -21,27 +15,27 @@ const menuData = {
         type:"specials",
         price:"20.00",
         description:"Stir-fried jasmine rice with shrimps, eegs, pineapple, cashew nut, tomatoes and scallions served in a pineapple shell.",
-        image:"/images/food-15.png"
+        image:"/Lumthai_Food/Signature/Pineapple FR.jpg"
       },
       {
         name:"Crispy Duck Curry",
         type:"specials",
         price:"20.00",
         description:"Boneless deep-fried duck in creamy coconut red curry sauce with pineapple, cherry tomatoes, bell peppers, basil leaves, and lychee. Served with jasmine rice.",
-        image:"/images/food-7.png"
+        image:"/Lumthai_Food/Signature/Crisy Duck curry.jpg"
 
       },{
         name:"Crispy Chicken Ka Prao",
         type:"specials",
         price:"16.00",
         description:"Deep-fried crispy chicken stir-fried with spicy and sweet basil sauce, bell peppers, and onions topped with fried basil leaves.",
-        image:""
+        image:"/Lumthai_Food/Signature/Crispy Chicken Kaprao.jpg"
       },{
         name:"Crispy Shrimp Ka Prao",
         type:"specials",
         price:"18.00",
         description:"Deep-fried crispy shrimp stir-fried with spicy and sweet basil sauce, bell peppers, and onions topped with fried basil leaves.",
-        image:""
+        image:"/Lumthai_Food/Signature/Crispy Shrimp Ka prao.jpg"
       },{
         name:"Crispy Eggplant",
         type:"specials",
@@ -59,19 +53,19 @@ const menuData = {
         type:"specials",
         price:"18.00",
         description:"Deep Fried Chicken stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.",
-        image:""
+        image:"/Lumthai_Food/Signature/Cashew Chicken.jpg"
       },{
         name:"Lumthai Cashew Shrimp",
         type:"specials",
         price:"18.00",
-        description:"DDeep Fried Chicken or Shrimp stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.",
+        description:"Deep Fried Chicken or Shrimp stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.",
         image:""
       },{
         name:"Khao Soi",
         type:"specials",
         price:"20.00",
         description:"Thai traditional northern style fresh turmeric soup with chicken thigh cilantro, scallions, creamy coconut curry, and egg noodles. Served with pickled cabbage and red onions.",
-        image:""
+        image:"/Lumthai_Food/Signature/Khao Soi.jpg"
       },{
         name:"Crispy Whole<br> Flounder Fish",
         type:"specials",
@@ -98,27 +92,27 @@ const menuData = {
         name: "Sticky Rice With Mango",
         price: "8.95",
         description: "Fresh soft mango served with sweetened sticky rice and topped with sweet coconut cream.",
-        image: "",
+        image: "/Lumthai_Food/Dessert/Sticky Rice Mango.jpg",
         type:"dessert"
       },{
         name: "Crispy Fried Banana With Coco Ice Cream",
         price: "8.95",
         description: "Banana wrapped in rice paper and deep fried to perfection. Served with one scoop of cocnut ice cream.",
-        image: "",
+        image: "/Lumthai_Food/Dessert/fried-banana.jpg",
         type:"dessert"
 
       },{
         name: "Coconut Ice Cream",
         price: "5.95",
         description: "",
-        image: "",
+        image: "/Lumthai_Food/Dessert/simple-coconut-ice-cream.jpg",
         type:"dessert"
 
       },{
         name: "Green Tea Ice Cream",
         price: "$5.95",
         description: "",
-        image: "",
+        image: "/Lumthai_Food/Dessert/green-tea-matcha-ice-cream-2031118-hero-01-14e95fdc74154590b112b62048ba8f67.jpg",
         type:"dessert"
 
       }
@@ -127,76 +121,76 @@ const menuData = {
     drinks: [
       {
         name: "Thai Iced Tea",
-        price: "$5.00",
+        price: "5.00",
         description: "",
         type:"drink",
-        image: "/images/logo.png"
+        image: "/Lumthai_Food/drink/thai-iced-tea-square-1-of-1.jpg"
       },{
         name: "Coke",
-        price: "$3.00",
+        price: "3.00",
         description: "",
         type:"drink",
-        image: "/images/logo.png"
+        image: "https://images.unsplash.com/photo-1596803244618-8dbee441d70b?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },{
         name: "Ginger Ale",
-        price: "$3.00",
+        price: "3.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://i5.walmartimages.com/seo/Canada-Dry-Ginger-Ale-Soda-12oz-Cans-Quantity-of-36_74e3f5cd-f5d7-4153-8b4a-96a07b75297e.b8f1a08a710b2f27be55a6cc48440e5e.jpeg"
       },{
         name: "Diet Coke",
-        price: "$3.00",
+        price: "3.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://www.coca-cola.com/content/dam/onexp/us/en/brands/diet-coke/en_diet%20coke_prod_original_en_diet%20coke_prod_caffeine%20free_750x750_v1.jpg"
       },{
         name: "Sprite",
-        price: "$3.00",
+        price: "3.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://m.media-amazon.com/images/I/71-29yqCPzL.jpg"
       },{
         name: "Bottled Water",
-        price: "$2.00",
+        price: "2.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://kidspressmagazine.com/wp-content/uploads/2014/04/dreamstime_xl_12522351.jpg"
       },{
         name: "Logan Juice",
-        price: "$5.00",
+        price: "5.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "/Lumthai_Food/drink/Crab Ragoon.jpg"
       },{
         name: "Lemonade",
-        price: "$3.00",
+        price: "3.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://www.allrecipes.com/thmb/-sGgcEhnlIhqr0legC4Q7TPkRhU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/32385-best-lemonade-ever-DDMFS-4x3-8cef7761205e417499c89eb178e5ba2b.jpg"
       },{
         name: "Hot Green Tea",
-        price: "$4.00",
+        price: "4.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://img.livestrong.com/-/clsd/getty/0f7723434c0f486bb45aa974c2f28ce0.jpg"
       },{
         name: "Hot Jasmine Tea",
-        price: "$4.00",
+        price: "4.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://www.blizzstatic.com/dynamicmedia/image/599/6076f310bbeed.png?w=450&h=319"
       },{
         name: "Iced Black Tea",
-        price: "$3.00",
+        price: "3.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://res.cloudinary.com/hksqkdlah/image/upload/SFS_iced_tea_41_wzgpm8.jpg"
       },{
         name: "Sparkling Water",
-        price: "$4.00",
+        price: "4.00",
         type:"drink",
         description: "",
-        image: "/images/logo.png"
+        image: "https://blog.myfitnesspal.com/wp-content/uploads/2018/07/Is-Flavored-Sparkling-Water-Killing-Your-Weight-Loss-Goals_-1.jpg"
       },
       
     ],
@@ -206,7 +200,7 @@ const menuData = {
           price: "4.00",
           description: "",
           type:"sides",
-          image: "/images/logo.png"
+          image: "/Lumthai_Food/Side/Brown Rice.jpg"
         },{
             name: "Side Thin Noodles",
             type:"sides",
@@ -230,7 +224,7 @@ const menuData = {
             price: "4.00",
             type:"sides",
             description: "",
-            image: "/images/logo.png"
+            image: "/Lumthai_Food/Side/Broccoli.jpg"
           },{
             name: "Extra Chicken",
             price: "4.00",
@@ -279,7 +273,7 @@ const menuData = {
             price: "4.00",
             type:"sides",
             description: "",
-            image: "/images/logo.png"
+            image: "https://howdaily.com/wp-content/uploads/2016/10/fried-tofu-dish-1024x683.jpg?x67400"
           },{
             name: "Sub Brown Rice",
             price: "3.00",
@@ -291,7 +285,7 @@ const menuData = {
             price: "3.00",
             type:"sides",
             description: "",
-            image: "/images/logo.png"
+            image: "/Lumthai_Food/Side/Rice.jpg"
           }
         
       ]
