@@ -271,6 +271,94 @@ const menuData = {
 
 
     ],
+    appetizers: [
+      {
+        name: "Chicken Satay",
+        price: "8.95",
+        description: "Chicken skewers served with cucumbers in sweet vinegar sauce and peanut sauce.",
+        image: "/Lumthai_Food/Appetizers/Chicken S.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Steamed Dumplings",
+        price: "8.95",
+        description: "Thai-style steamed dumplings stued with pork, shrimp and water chestnuts.",
+        image: "/Lumthai_Food/Appetizers/Dumpling.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Curry Puffs",
+        price: "7.95",
+        description: "Flakey and crispy pastry pus lled with savory curried potatoes, chicken, and onions. Served with cucumbers in sweet vinegar sauce.",
+        image: "/Lumthai_Food/Appetizers/Curry Puff.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Crispy Wontons",
+        price: "7.95",
+        description: "Deep fried chicken wontons with house special sauce.",
+        image: "/Lumthai_Food/Appetizers/Chicken S.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Chicken Wings",
+        price: "9.95",
+        description: "Wings marinated in garlic sauce, then deep fried to perfection. Served with sweet chili dipping sauce.",
+        image: "/Lumthai_Food/Appetizers/Wings.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Fried Calamari",
+        price: "8.95",
+        description: "Fresh squid lightly battered and deep fried. Served with sweet & sour sauce Deep fried shrimp wrapped in thin crispy rolls. Served with sweet & sour sauce.",
+        image: "/Lumthai_Food/Appetizers/Calamari l.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Blanket Shrimp",
+        price: "8.95",
+        description: "Whole shrimp wrapped in spring roll wrappers and deep fried until crispy.",
+        image: "/Lumthai_Food/Appetizers/Blanket Shrimp.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Crab Rangoon",
+        price: "8.95",
+        description: "Crab with cream cheese cooked in crispy wonton wrappers. Served with sweet and sour sauce.",
+        image: "/Lumthai_Food/Appetizers/Crab Ragoon N.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Spring Rolls",
+        price: "7.95",
+        description: "Deep fried crispy rolls stuffed with clear noodles, carrots, and cabbage. Served with sweet & sour sauce.",
+        image: "/Lumthai_Food/Appetizers/Spring Roll.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Fried Tofu",
+        price: "7.95",
+        description: "Deep fried tofu cubes. Served with sweet & sour sauce and crushed peanuts.",
+        image: "/Lumthai_Food/Appetizers/Tofu.jpg",
+        type:"appetizer"
+      },
+      {
+        name: "Garden Herb Rolls",
+        price: "8.95",
+        description: "Fresh rice paper rolls stuffed with lettuce, mixed vegetables, mint, and fresh basil. Served with sweet peanut chili dipping sauce.",
+        image: "/Lumthai_Food/Appetizers/Gargen Hreb roll.jpg",
+        type:"appetizer"
+      },{
+        name: "Crispy Chives Dumplings",
+        price: "7.50",
+        description: "Deep fried chive dumpling serve with sweet soy sauce",
+        image: "Lumthai_Food/Appetizers/Chives.jpg",
+        type:"appetizer"
+      },
+
+
+      
+    ],
     desserts: [
       {
         name: "Sticky Rice With Mango",
@@ -511,6 +599,7 @@ const menuData = {
   const noodlesHTML = generateMenuHTML(menuData.noodles);
   const entreeHTML = generateMenuHTML(menuData.entree)
   const specialsHTML = generateMenuHTML(menuData.specials);
+  const appetizersHTML = generateMenuHTML(menuData.appetizers);
   const dessertsHTML = generateMenuHTML(menuData.desserts);
   const drinksHTML = generateMenuHTML(menuData.drinks);
   const sidesHTML = generateMenuHTML(menuData.sides);
@@ -525,6 +614,7 @@ const menuData = {
   document.getElementById('noodles').innerHTML = noodlesHTML;
   document.getElementById('entree').innerHTML = entreeHTML;
   document.getElementById('specials').innerHTML = specialsHTML;
+  document.getElementById('appetizers').innerHTML = appetizersHTML;
   document.getElementById('desserts').innerHTML = dessertsHTML;
   document.getElementById('drinks').innerHTML = drinksHTML;
   document.getElementById('sides').innerHTML = sidesHTML;
