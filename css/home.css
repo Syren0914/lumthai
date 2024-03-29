@@ -851,3 +851,42 @@ a{
 }
 
 }
+
+
+
+/* button  */
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #000000;
+  border-radius: 20px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  font-family: "Sriracha" ,sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.shadow__btn {
+  background: rgb(255, 200, 98);
+  box-shadow: 0 0 25px rgb(255, 179, 65);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(255, 179, 65),
+              0 0 25px rgb(255, 179, 65),
+              0 0 50px rgb(255, 179, 65),
+              0 0 100px rgb(255, 179, 65);
+}
+
+.footer_text{
+	color: #ff030b;
+	transition: 0.5s;
+}
+.footer_text:hover{
+	color: #FFC300;
+}
