@@ -340,9 +340,7 @@ margin-block-end:12px
 .special-dish .section-text {
 margin-block:16px 40px
 }
-.special-dish{
-	z-index: 1000;
-}
+
 
 .special-dish-content .wrapper {
 display:flex;

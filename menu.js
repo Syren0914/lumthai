@@ -11,6 +11,14 @@ const menuData = {
 
       },
       {
+        name:"Chicken Pop",
+        price:"10.00",
+        description: "Thai style popcorn chicken.",
+        image: "Lumthai_Food/Signature/Chicken Pop.jpg",
+        type:"specials"
+
+      },
+      {
         name:"Pineapple Fried Rice",
         type:"specials",
         price:"20.00",
@@ -41,13 +49,13 @@ const menuData = {
         type:"specials",
         price:"18.00",
         description:"Lightly battered crispy eggplant and bell peppers topped with chili basil and garlic sauce. Served with jasmine rice.",
-        image:"/images/food-8.png"
+        image:"Lumthai_Food/Signature/Crispy Eggpant k.jpg"
       },{
         name:"papaya Salad With Fried Chicken",
         type:"specials",
         price:"20.00",
         description:"Papaya salad with our cooked to prefection crispy chicken and a scoop of sticky rice.",
-        image:"/images/food-8.png"
+        image:"Lumthai_Food/Signature/Papaya Salad W_ Fried chicken.jpg"
       },{
         name:"Lumthai Cashew Chicken",
         type:"specials",
@@ -59,7 +67,7 @@ const menuData = {
         type:"specials",
         price:"18.00",
         description:"Deep Fried Chicken or Shrimp stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.",
-        image:""
+        image:"Lumthai_Food/Signature/Cashew Shrimp.jpg"
       },{
         name:"Khao Soi",
         type:"specials",
@@ -113,7 +121,7 @@ const menuData = {
         name: "Crispy Wontons",
         price: "7.95",
         description: "Deep fried chicken wontons with house special sauce.",
-        image: "/Lumthai_Food/Appetizers/Chicken S.jpg",
+        image: "Lumthai_Food/Appetizers/Crispy wonton.jpg",
         type:"appetizer"
       },
       {
@@ -248,7 +256,7 @@ const menuData = {
         price: "5.00",
         type:"drink",
         description: "",
-        image: "/Lumthai_Food/drink/Crab Ragoon.jpg"
+        image: "images/logo.png"
       },{
         name: "Lemonade",
         price: "3.00",

@@ -19,14 +19,14 @@ const menuData = {
             name: "Veggie Soup",
             price: "7.00",
             description: "Vegetable broth soup with mixed vegetables, scallions, and cilantro. Topped with crispy garlic." ,
-            image: "/images/logo.png",
+            image: "Lumthai_Food/Appetizers/Soup/veggie soup.jpg",
             type:"soup"
         },
         {
             name: "Wonton Soup",
             price: "8.00",
             description: "Wontons stuffed with minced chicken/shrimp in a clear broth with carrots, scallions, cilantro, white pepper, napa, and fried garlic." ,
-            image: "/images/logo.png",
+            image: "Lumthai_Food/Appetizers/Soup/wonton soup.jpg",
             type:"soup"
         },
 
@@ -35,21 +35,21 @@ const menuData = {
         {
             name: "Nam Tok Salad",
             price: "10.00",
-            description: "Thai style popcorn chicken.",
+            description: "Flank beef marinated and tossed with a fresh green salad that has, chilis, lime juice, mint, red onions, cilantro, and a roasted rice dressing.",
             image: "/Lumthai_Food/Appetizers/Salad/Nam.jpg",
             type:"Salad"
         },
         {
             name: "Papaya Salad",
             price: "10.00",
-            description: "Thai style popcorn chicken.",
+            description: "Papaya shredded and mixed/tossed with chili, garlic, lime dressing, green beans, tomatoes, and peanuts.",
             image: "/Lumthai_Food/Appetizers/Salad/Papaya_Salad.jpg",
             type:"Salad"
         },
         {
             name: "Papaya Salad with shrimp",
             price: "12.00",
-            description: "Thai style popcorn chicken.",
+            description: "Papaya shredded and mixed/tossed with chili, garlic, lime dressing, green beans, tomatoes, and peanuts.",
             image: "/Lumthai_Food/Appetizers/Salad/Papaya_shrimp.jpg",
             type:"Salad"
         },
@@ -202,6 +202,14 @@ const menuData = {
         image:"/Lumthai_Food/Signature/Pineapple FR.jpg"
       },
       {
+        name:"Chicken Pop",
+        price:"10.00",
+        description: "Thai style popcorn chicken.",
+        image: "Lumthai_Food/Signature/Chicken Pop.jpg",
+        type:"specials"
+
+      },
+      {
         name:"Crispy Duck Curry",
         type:"specials",
         price:"20.00",
@@ -225,13 +233,13 @@ const menuData = {
         type:"specials",
         price:"18.00",
         description:"Lightly battered crispy eggplant and bell peppers topped with chili basil and garlic sauce. Served with jasmine rice.",
-        image:"/images/food-8.png"
+        image:"Lumthai_Food/Signature/Crispy Eggpant k.jpg"
       },{
         name:"papaya Salad With Fried Chicken",
         type:"specials",
         price:"20.00",
         description:"Papaya salad with our cooked to prefection crispy chicken and a scoop of sticky rice.",
-        image:"/images/food-8.png"
+        image:"/Lumthai_Food/Signature/Papaya Salad W_ Fried chicken.jpg"
       },{
         name:"Lumthai Cashew Chicken",
         type:"specials",
@@ -243,7 +251,7 @@ const menuData = {
         type:"specials",
         price:"18.00",
         description:"Deep Fried Chicken or Shrimp stir-fried with roasted cashew nuts, onions, scallions, celery, and bell peppers sautéed in Lum Thai’s special sauce.",
-        image:""
+        image:"Lumthai_Food/Signature/Cashew Shrimp.jpg"
       },{
         name:"Khao Soi",
         type:"specials",
@@ -297,7 +305,7 @@ const menuData = {
         name: "Crispy Wontons",
         price: "7.95",
         description: "Deep fried chicken wontons with house special sauce.",
-        image: "/Lumthai_Food/Appetizers/Chicken S.jpg",
+        image: "Lumthai_Food/Appetizers/Crispy wonton.jpg",
         type:"appetizer"
       },
       {
@@ -432,7 +440,7 @@ const menuData = {
         price: "5.00",
         type:"drink",
         description: "",
-        image: "/Lumthai_Food/drink/Crab Ragoon.jpg"
+        image: "images/logo.png"
       },{
         name: "Lemonade",
         price: "3.00",
