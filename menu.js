@@ -51,7 +51,7 @@ const menuData = {
         description:"Lightly battered crispy eggplant and bell peppers topped with chili basil and garlic sauce. Served with jasmine rice.",
         image:"Lumthai_Food/Signature/Crispy Eggpant k.jpg"
       },{
-        name:"papaya Salad With Fried Chicken",
+        name:"Papaya Salad With Fried Chicken",
         type:"specials",
         price:"20.00",
         description:"Papaya salad with our cooked to prefection crispy chicken and a scoop of sticky rice.",
@@ -100,7 +100,7 @@ const menuData = {
         name: "Chicken Satay",
         price: "8.95",
         description: "Chicken skewers served with cucumbers in sweet vinegar sauce and peanut sauce.",
-        image: "/Lumthai_Food/Appetizers/Chicken S.jpg",
+        image: "Lumthai_Food/Appetizers/Satay.jpg",
         type:"appetizer"
       },
       {

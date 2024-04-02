@@ -123,7 +123,7 @@ const menuData = {
             name: "Drunken Lo Mein",
             price: "13.95",
             description: "Lo mien noodles stir-fried in chili and garlic sauce with tomatoes, carrots, onions, bell peppers, and sweet basil. Cooked with your choice of meat.",
-            image: "/Lumthai_Food/nooddle and Rice/Drunken Lo Mien902_n.jpg",
+            image: "Lumthai_Food/nooddle and Rice/Lomien.jpg",
             type:"noodles"
         },
         {
@@ -235,7 +235,7 @@ const menuData = {
         description:"Lightly battered crispy eggplant and bell peppers topped with chili basil and garlic sauce. Served with jasmine rice.",
         image:"Lumthai_Food/Signature/Crispy Eggpant k.jpg"
       },{
-        name:"papaya Salad With Fried Chicken",
+        name:"Papaya Salad With Fried Chicken",
         type:"specials",
         price:"20.00",
         description:"Papaya salad with our cooked to prefection crispy chicken and a scoop of sticky rice.",
