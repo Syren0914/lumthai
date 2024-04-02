@@ -220,7 +220,7 @@ const menuData = {
         price: "5.00",
         description: "",
         type:"drink",
-        image: "/Lumthai_Food/drink/thai-iced-tea-square-1-of-1.jpg"
+        image: "Lumthai_Food/drink/Crab Ragoon.jpg"
       },{
         name: "Coke",
         price: "3.00",
