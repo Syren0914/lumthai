@@ -194,14 +194,14 @@ const menuData = {
         name: "Crispy Fried Banana With Coco Ice Cream",
         price: "8.95",
         description: "Banana wrapped in rice paper and deep fried to perfection. Served with one scoop of cocnut ice cream.",
-        image: "/Lumthai_Food/Dessert/fried-banana.jpg",
+        image: "Lumthai_Food/Dessert/Fried banana W_ Ice cream.jpg",
         type:"dessert"
 
       },{
         name: "Coconut Ice Cream",
         price: "5.95",
         description: "",
-        image: "/Lumthai_Food/Dessert/simple-coconut-ice-cream.jpg",
+        image: "Lumthai_Food/Dessert/Coconut Ice cream (1).jpg",
         type:"dessert"
 
       },{
@@ -262,31 +262,31 @@ const menuData = {
         price: "3.00",
         type:"drink",
         description: "",
-        image: "https://www.allrecipes.com/thmb/-sGgcEhnlIhqr0legC4Q7TPkRhU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/32385-best-lemonade-ever-DDMFS-4x3-8cef7761205e417499c89eb178e5ba2b.jpg"
+        image: "images/logo.png"
       },{
         name: "Hot Green Tea",
         price: "4.00",
         type:"drink",
         description: "",
-        image: "https://img.livestrong.com/-/clsd/getty/0f7723434c0f486bb45aa974c2f28ce0.jpg"
+        image: "images/logo.png"
       },{
         name: "Hot Jasmine Tea",
         price: "4.00",
         type:"drink",
         description: "",
-        image: "https://www.blizzstatic.com/dynamicmedia/image/599/6076f310bbeed.png?w=450&h=319"
+        image: "images/logo.png"
       },{
         name: "Iced Black Tea",
         price: "3.00",
         type:"drink",
         description: "",
-        image: "https://res.cloudinary.com/hksqkdlah/image/upload/SFS_iced_tea_41_wzgpm8.jpg"
+        image: "images/logo.png"
       },{
         name: "Sparkling Water",
         price: "4.00",
         type:"drink",
         description: "",
-        image: "https://blog.myfitnesspal.com/wp-content/uploads/2018/07/Is-Flavored-Sparkling-Water-Killing-Your-Weight-Loss-Goals_-1.jpg"
+        image: "images/logo.png"
       },
       
     ],
@@ -369,7 +369,7 @@ const menuData = {
             price: "4.00",
             type:"sides",
             description: "",
-            image: "https://howdaily.com/wp-content/uploads/2016/10/fried-tofu-dish-1024x683.jpg?x67400"
+            image: "images/logo.png"
           },{
             name: "Sub Brown Rice",
             price: "3.00",
