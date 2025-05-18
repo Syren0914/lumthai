@@ -14,6 +14,7 @@
 }
 .hero__imgWrapper {
 	justify-content: center;
+	padding-left: 1rem;
 	
 	/* width: auto; */
 	margin: 0 ;
@@ -143,10 +144,11 @@ a{
 		text-align: left;
 	}
 	.hero__imgWrapper img{
-		/* max-width: none; */
+		
 		width: 500px;
 		justify-content: center;
 		height: 100vh;
+		translate: 20% -10%;
 		
 		
 		
@@ -174,6 +176,7 @@ a{
 	.hero__left,
 	.hero__right {
 		flex: 4;
+		
 	}
 }
 /* Our Specials Section Styles */
